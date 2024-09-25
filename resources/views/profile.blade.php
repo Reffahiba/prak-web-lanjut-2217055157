@@ -14,8 +14,8 @@
                 <h1 class="text-black text-center mb-6 font-extrabold">About Me</h1>
                 <img src="{{ asset('assets/img/foto-reffa.jpeg') }}" alt="foto-profile" class="w-44 h-52 mb-4 rounded-full">
                 <p class="text-gray-700 bg-red-300 font-semibold text-center rounded-lg mb-3">{{ $nama }}</p>
-                <p class="text-gray-700 bg-red-300 font-semibold text-center rounded-lg mb-3">{{ $kelas }}</p>
                 <p class="text-gray-700 bg-red-300 font-semibold text-center rounded-lg mb-3">{{ $npm }}</p>
+                <p class="text-gray-700 bg-red-300 font-semibold text-center rounded-lg mb-3">{{ $nama_kelas ?? 'Kelas tidak ditemukan'}}</p>
             </div>
         </div>
     </div>
